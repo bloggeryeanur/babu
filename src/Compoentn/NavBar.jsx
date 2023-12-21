@@ -59,7 +59,7 @@ function NavBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         <Stack direction="row" spacing={2}>
-          <Avatar alt="Remy Sharp" src="/src/assets/photos/babuicon.png" />
+          <Avatar alt="Remy Sharp" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" />
         </Stack>
       </Typography> 
       <Divider />

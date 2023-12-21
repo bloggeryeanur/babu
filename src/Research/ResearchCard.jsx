@@ -40,7 +40,7 @@ export default function ResearchCard() {
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             <Stack direction="row" spacing={2}>
-              <Avatar alt="Babu Khan" src="/src/assets/photos/babuicon.png" />
+              <Avatar alt="Babu Khan" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" />
             </Stack>
           </Avatar>
         }

@@ -65,7 +65,7 @@ const HeroSection = () => {
                 height: "24rem",
                 marginTop: "5rem",
               }}
-              src="/src/assets/photos/babuicon.png"
+              src="https://i.ibb.co/C9cfqZL/babuicon.jpg"
               alt=""
             />
           </Box>
