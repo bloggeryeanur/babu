@@ -5,7 +5,7 @@ import Title from "../Compoentn/Title";
 const Research = () => {
   return (
     <Box>
-      <Title first='My Running Researching' second='Project'></Title>
+      <Title first="My Running Researching" second="Project"></Title>
       <Grid container>
         <Grid
           item

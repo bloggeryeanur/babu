@@ -17,6 +17,7 @@ import Nine from "../assets/photos/project/9.png";
 import Ten from "../assets/photos/project/10.png";
 import Eleven from "../assets/photos/project/11.png";
 import Twelv from "../assets/photos/project/12.png";
+import { Link } from "react-router-dom";
 
 // Tab function
 function CustomTabPanel(props) {
@@ -166,9 +167,11 @@ const Project = () => {
         
       }}>
         {/* Your centered button */}
-        <Button variant="contained" color="secondary">
+       <Link to={'/contacts'}>
+       <Button variant="contained" color="secondary">
           Hire Me
         </Button>
+       </Link>
       </Box>
     </Box>
   );

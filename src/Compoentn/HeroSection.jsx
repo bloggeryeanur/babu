@@ -1,5 +1,6 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Typed from "typed.js";
 
 const HeroSection = () => {
@@ -48,9 +49,11 @@ const HeroSection = () => {
             <Typography sx={{ padding: "22px 0" }}>
               From Dhaka Bangladesh
             </Typography>
-            <Button variant="outlined" color="secondary">
-              Contact Me
-            </Button>
+            <Link to={"/contacts"}>
+              <Button variant="outlined" color="secondary">
+                Contact Me
+              </Button>
+            </Link>
           </Box>
         </Grid>
 
@@ -64,7 +67,7 @@ const HeroSection = () => {
                 borderRadius: "50%",
                 height: "18rem",
                 marginTop: "5rem",
-                width: '15rem'
+                width: "15rem",
               }}
               src="https://i.ibb.co/C9cfqZL/babuicon.jpg"
               alt=""
