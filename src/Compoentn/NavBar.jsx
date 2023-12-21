@@ -87,11 +87,11 @@ function NavBar(props) {
           <IconButton
             color="inherit"
             aria-label="open drawer"
-            edge="start"
+            edge="start" 
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}>
             <Stack direction="row" spacing={2}>
-              <Avatar alt="Remy Sharp" src="/src/assets/photos/babuicon.png" />
+              <Avatar alt="Remy Sharp" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" />
             </Stack>
           </IconButton>
           <Typography
@@ -101,7 +101,7 @@ function NavBar(props) {
             {/* User Profile photos */}
             <Stack direction="row" spacing={2}>
           <Link to={'/'}>
-          <  Avatar alt="Remy Sharp" src="/src/assets/photos/icon.png" /></Link>
+          <  Avatar alt="Remy Sharp" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" /></Link>
             </Stack>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
