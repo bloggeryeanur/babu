@@ -1,9 +1,11 @@
 import { Box, Grid } from "@mui/material";
 import ResearchCard from "./ResearchCard";
+import Title from "../Compoentn/Title";
 
 const Research = () => {
   return (
     <Box>
+      <Title first='My Running Researching' second='Project'></Title>
       <Grid container>
         <Grid
           item
