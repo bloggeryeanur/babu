@@ -62,8 +62,9 @@ const HeroSection = () => {
             <img
               style={{
                 borderRadius: "50%",
-                height: "24rem",
+                height: "18rem",
                 marginTop: "5rem",
+                width: '15rem'
               }}
               src="https://i.ibb.co/C9cfqZL/babuicon.jpg"
               alt=""
