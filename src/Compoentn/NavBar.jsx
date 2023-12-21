@@ -14,9 +14,39 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Avatar, Stack } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = ["Home", "Course", "Education", "Project", "About", "Contact"];
+const navItem = [
+  {
+    path: '/home',
+    name : 'Home',
+    id: 1,
+  },
+  {
+    path: '/course',
+    name : 'Course',
+    id: 2,
+  },
+  {
+    path: '/education',
+    name : 'Education',
+    id: 3,
+  },{
+    path: '/project',
+    name : 'Project',
+    id: 4,
+  },{
+    path: '/about',
+    name : 'About',
+    id: 5,
+  },{
+    path: '/contacts',
+    name : 'Contact',
+    id: 6,
+  },
+]
 
 function NavBar(props) {
   const { window } = props;
@@ -32,13 +62,14 @@ function NavBar(props) {
         <Stack direction="row" spacing={2}>
           <Avatar alt="Remy Sharp" src="/src/assets/photos/babuicon.png" />
         </Stack>
-      </Typography>
+      </Typography> 
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+        {navItem.map((item) => (
+          <ListItem key={item.id} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+              <Link to={item.path}>
+              <ListItemText primary={item.name} /></Link>
             </ListItemButton>
           </ListItem>
         ))}
@@ -70,14 +101,16 @@ function NavBar(props) {
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
             {/* User Profile photos */}
             <Stack direction="row" spacing={2}>
-              <Avatar alt="Remy Sharp" src="/src/assets/photos/babuicon.png" />
+          <Link to={'/'}>
+          <  Avatar alt="Remy Sharp" src="/src/assets/photos/icon.png" /></Link>
             </Stack>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
-              </Button>
+            {navItem.map((item) => (
+              <Link to={item.path} key={item.id}>
+              <Button  sx={{ color: "#fff" }}>
+                {item.name}
+              </Button></Link>
             ))}
           </Box>
         </Toolbar>
