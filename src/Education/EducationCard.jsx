@@ -7,7 +7,7 @@ const EducationCard = ({ progremer, instuate, from, to, summary }) => {
       <Typography
         sx={{
           fontSize: "28px",
-          color: "blue",
+          color: "#BDB76B",
         }}>
         {progremer}
       </Typography>
@@ -24,7 +24,7 @@ const EducationCard = ({ progremer, instuate, from, to, summary }) => {
       <Typography
         sx={{
           width: "80%",
-          height: "6px",
+          height: "2px",
           background: "gray",
         }}></Typography>
     </Box>

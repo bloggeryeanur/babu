@@ -17,7 +17,6 @@ import { Avatar, Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Course", "Education", "Project", "About", "Contact"];
 const navItem = [
   {
     path: '/home',
@@ -25,8 +24,8 @@ const navItem = [
     id: 1,
   },
   {
-    path: '/course',
-    name : 'Course',
+    path: '/research',
+    name : 'research',
     id: 2,
   },
   {

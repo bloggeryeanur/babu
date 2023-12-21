@@ -7,7 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
-import MarkEmailReadIcon from "@mui/icons-material/MarkEmailRead";
+
 import AddHomeWorkIcon from "@mui/icons-material/AddHomeWork";
 import AddLocationAltOutlinedIcon from "@mui/icons-material/AddLocationAltOutlined";
 import { EmailOutlined } from "@mui/icons-material";
@@ -15,7 +15,7 @@ import { EmailOutlined } from "@mui/icons-material";
 const Contacts = () => {
   return (
     <Box>
-      <Title first="Contact" second="Me"></Title>
+      <Title first="Contact Me Office Or" second="Online"></Title>
       <Grid container justifyContent="space-around">
         <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
           <Box
