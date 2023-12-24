@@ -91,7 +91,7 @@ function NavBar(props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}>
             <Stack direction="row" spacing={2}>
-              <Avatar alt="Remy Sharp" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" />
+              <Avatar alt="Remy Sharp" src="https://i.ibb.co/C9cfqZL/babuicon.jpg" />B
             </Stack>
           </IconButton>
           <Typography
